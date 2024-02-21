@@ -1,3 +1,10 @@
+<?php
+    if(isset($_POST['liczba1'], $_POST['liczba2'], $_POST['znak'])) {
+        $liczba1 = $_POST['liczba1'];
+        $liczba2 = $_POST['liczba2'];
+        $znak = $_POST['znak'];
+
+
 if(is_numeric($liczba1) && is_numeric($liczba2)) {
     switch($znak) {
         case "+":
